@@ -1,8 +1,8 @@
 @echo off
 REM run.bat - Launches yt2mp3.py
 REM Usage:
-REM   run.bat <youtube-url> [output-directory]
-REM   or just double-click and enter the URL when prompted
+REM   run.bat <youtube-url-or-song-name> [output-directory]
+REM   or just double-click and enter a URL or song name when prompted
 
 setlocal
 
@@ -25,7 +25,7 @@ if errorlevel 1 (
 REM Get the URL either from the argument or by prompting the user
 set "URL=%~1"
 if "%URL%"=="" (
-    set /p URL="Enter YouTube URL: "
+    set /p URL="Enter a YouTube URL or song name to search: "
 )
 
 set "OUTDIR=%~2"
