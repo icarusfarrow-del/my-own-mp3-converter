@@ -1,5 +1,5 @@
 @echo off
-REM run.bat - Launches yt2mp3.py
+REM run.bat - Launches converter.py
 REM Usage:
 REM   run.bat <youtube-url-or-song-name> [output-directory]
 REM   or just double-click and enter a URL or song name when prompted
